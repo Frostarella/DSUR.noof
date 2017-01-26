@@ -7,4 +7,4 @@ Simply type the command install_github('DSUR.noof', 'Frostarella') into your R c
 
 # Credits
 * Credits for the functions in the package go to Andy Field ("Discovering Statistics Using R") and G. Jay Kerns, Youngstown State University.
-* This package was made by following Hilary Parkers' blog post on creating R packages ([read it here!) (https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/))
+* This package was made by following Hilary Parkers' blog post on creating R packages ([read it here!] (https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/))
