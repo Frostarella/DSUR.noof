@@ -5,6 +5,7 @@
 #'
 #' @param t t-value of the test.
 #' @param df degrees of freedom.
+#' @export
 #' @examples 
 #' rcontrast(2.474, 12)
 rcontrast <- function(t, df) {
@@ -19,6 +20,7 @@ rcontrast <- function(t, df) {
 #'
 #' @param wilcoxModel a model created using wilcox.test().
 #' @param N total sample size.
+#' @export
 #' @examples
 #' rFromWilcox(sunModel, 20)
 rFromWilcox <- function(wilcoxModel, N) {
@@ -36,6 +38,7 @@ rFromWilcox <- function(wilcoxModel, N) {
 #' Needs the MASS package.
 #'
 #' @param data dataframe to compute the kmo on.
+#' @export
 #' @examples
 #' kmo(raqData)
 kmo <- function(data){
@@ -94,6 +97,7 @@ kmo <- function(data){
 #' This function calculates the mean value of a variable.
 #'
 #' @param variable the variable to calculate the mean value of.
+#' @export
 #' @examples 
 #' meanOfVariable(lecturerFriends)
 meanOfVariable <- function(variable) {
@@ -107,6 +111,7 @@ meanOfVariable <- function(variable) {
 #' This function calculates the various values of R^2 from a logistic regression model.
 #'
 #' @param logModel logistic regression model
+#' @export
 #' @examples
 #' logisticPseudoR2s(eelModel.1)
 logisiticPseudoR2s <- function(logModel) {
@@ -129,6 +134,7 @@ logisiticPseudoR2s <- function(logModel) {
 #' This function adjusts scores for the fact they were from a repeated-measures design.
 #'
 #' @param dataframe dataframe with the scores that need adjustment.
+#' @export
 #' @examples
 #' rmMeanAdjust(spiderWide)
 rmMeanAdjust <- function(dataframe) {
@@ -155,6 +161,7 @@ rmMeanAdjust <- function(dataframe) {
 #' @param sd2 standard deviation of group 2.
 #' @param n1 sample size of group 1.
 #' @param n2 sample size of group 2.
+#' @export
 #' @examples
 #' ttestfromMeans(x1, x2, sd1, sd2, n1, n2)
 ttestfromMeans <- function(x1, x2, sd1, sd2, n1, n2) {
@@ -171,6 +178,7 @@ ttestfromMeans <- function(x1, x2, sd1, sd2, n1, n2) {
 #' This function wraps all of the factor analysis residual commands.
 #'
 #' @param matrix residual matrix. (Calculate using factor.residuals()).
+#' @export
 #' @examples residual.stats(resids)
 residual.stats <- function(matrix) {
   residuals <- as.matrix(matrix[upper.tri(matrix)]) 
