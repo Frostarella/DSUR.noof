@@ -9,10 +9,10 @@ logisiticPseudoR2s(logModel)
 \arguments{
 \item{logModel}{logistic regression model}
 }
+\value{
+None
+}
 \description{
 DSUR, page 332.
 This function calculates the various values of R^2 from a logistic regression model.
-}
-\examples{
-logisticPseudoR2s(eelModel.1)
 }

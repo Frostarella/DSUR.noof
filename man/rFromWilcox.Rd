@@ -11,10 +11,10 @@ rFromWilcox(wilcoxModel, N)
 
 \item{N}{total sample size.}
 }
+\value{
+ans list of calculation results
+}
 \description{
 DSUR, page 665.
 This function computes effect sizes from models created using wilcox.test().
-}
-\examples{
-rFromWilcox(sunModel, 20)
 }

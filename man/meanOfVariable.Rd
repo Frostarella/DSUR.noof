@@ -9,10 +9,13 @@ meanOfVariable(variable)
 \arguments{
 \item{variable}{the variable to calculate the mean value of.}
 }
+\value{
+None
+}
 \description{
 DSUR, page 228.
 This function calculates the mean value of a variable.
 }
 \examples{
-meanOfVariable(lecturerFriends)
+meanOfVariable(c(1,2,3))
 }

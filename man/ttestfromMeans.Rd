@@ -19,10 +19,10 @@ ttestfromMeans(x1, x2, sd1, sd2, n1, n2)
 
 \item{n2}{sample size of group 2.}
 }
+\value{
+None
+}
 \description{
 DSUR, page 375.
 This function calculates a t-test for the means, standard deviations, and sample sizes of two groups.
-}
-\examples{
-ttestfromMeans(x1, x2, sd1, sd2, n1, n2)
 }

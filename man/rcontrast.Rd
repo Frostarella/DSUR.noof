@@ -11,6 +11,9 @@ rcontrast(t, df)
 
 \item{df}{degrees of freedom.}
 }
+\value{
+None
+}
 \description{
 DSUR, page 457.
 This function computes effect sizes for the orthogonal contrasts.

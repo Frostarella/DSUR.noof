@@ -9,6 +9,9 @@ kmo(data)
 \arguments{
 \item{data}{dataframe to compute the kmo on.}
 }
+\value{
+None
+}
 \description{
 DSUR, page 776.
 Function by G. Jay Kerns, Youngstown State University
@@ -17,5 +20,5 @@ This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 Needs the MASS package.
 }
 \examples{
-kmo(raqData)
+kmo(data.frame(c(1,2,3), c(1,2,3), c(1,2,3)))
 }

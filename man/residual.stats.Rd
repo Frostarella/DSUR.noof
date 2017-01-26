@@ -9,10 +9,10 @@ residual.stats(matrix)
 \arguments{
 \item{matrix}{residual matrix. (Calculate using factor.residuals()).}
 }
+\value{
+None
+}
 \description{
 DSUR, page 785.
 This function wraps all of the factor analysis residual commands.
-}
-\examples{
-residual.stats(resids)
 }

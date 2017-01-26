@@ -7,12 +7,15 @@
 rmMeanAdjust(dataframe)
 }
 \arguments{
-\item{dataframe}{dataframe with the scores that need adjustment.}
+\item{dataframe}{2-dimensional dataframe with the scores that need adjustment.}
+}
+\value{
+output table of variables and adjustment.
 }
 \description{
 DSUR, page 365.
 This function adjusts scores for the fact they were from a repeated-measures design.
 }
 \examples{
-rmMeanAdjust(spiderWide)
+rmMeanAdjust(data.frame(c(1,2,3), c(1,2,3)))
 }
