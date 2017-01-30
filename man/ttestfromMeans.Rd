@@ -3,6 +3,9 @@
 \name{ttestfromMeans}
 \alias{ttestfromMeans}
 \title{Function ttestfromMeans}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 375
+}
 \usage{
 ttestfromMeans(x1, x2, sd1, sd2, n1, n2)
 }
@@ -23,6 +26,5 @@ ttestfromMeans(x1, x2, sd1, sd2, n1, n2)
 None
 }
 \description{
-DSUR, page 375.
-This function calculates a t-test for the means, standard deviations, and sample sizes of two groups.
+This function calculates a t-test for the means, standard deviations, and sample sizes of two groups, and prints the results.
 }

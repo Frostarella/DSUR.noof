@@ -3,6 +3,9 @@
 \name{logisiticPseudoR2s}
 \alias{logisiticPseudoR2s}
 \title{Function logisticsPseudoR2s}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 332
+}
 \usage{
 logisiticPseudoR2s(logModel)
 }
@@ -13,6 +16,5 @@ logisiticPseudoR2s(logModel)
 None
 }
 \description{
-DSUR, page 332.
-This function calculates the various values of R^2 from a logistic regression model.
+This function calculates the various values of R^2 from a logistic regression model and prints the results.
 }

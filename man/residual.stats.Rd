@@ -3,16 +3,18 @@
 \name{residual.stats}
 \alias{residual.stats}
 \title{Function residual.stats}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 785
+}
 \usage{
 residual.stats(matrix)
 }
 \arguments{
-\item{matrix}{residual matrix. (Calculate using factor.residuals()).}
+\item{matrix}{residual matrix. (Calculate matrix using factor.residuals()).}
 }
 \value{
 None
 }
 \description{
-DSUR, page 785.
-This function wraps all of the factor analysis residual commands.
+This function wraps all of the factor analysis residual commands and prints the results.
 }

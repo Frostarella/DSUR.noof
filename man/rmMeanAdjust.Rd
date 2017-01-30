@@ -3,6 +3,9 @@
 \name{rmMeanAdjust}
 \alias{rmMeanAdjust}
 \title{Function rmMeanAdjust}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 365
+}
 \usage{
 rmMeanAdjust(dataframe)
 }
@@ -13,9 +16,5 @@ rmMeanAdjust(dataframe)
 output table of variables and adjustment.
 }
 \description{
-DSUR, page 365.
 This function adjusts scores for the fact they were from a repeated-measures design.
-}
-\examples{
-rmMeanAdjust(data.frame(c(1,2,3), c(1,2,3)))
 }

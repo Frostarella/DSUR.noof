@@ -3,6 +3,9 @@
 \name{meanOfVariable}
 \alias{meanOfVariable}
 \title{Function meanOfVariable}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 228
+}
 \usage{
 meanOfVariable(variable)
 }
@@ -13,8 +16,7 @@ meanOfVariable(variable)
 None
 }
 \description{
-DSUR, page 228.
-This function calculates the mean value of a variable.
+This function calculates the mean value of a variable and prints the result
 }
 \examples{
 meanOfVariable(c(1,2,3))

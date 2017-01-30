@@ -3,6 +3,9 @@
 \name{rFromWilcox}
 \alias{rFromWilcox}
 \title{Function rFromWilcox}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 665
+}
 \usage{
 rFromWilcox(wilcoxModel, N)
 }
@@ -11,10 +14,7 @@ rFromWilcox(wilcoxModel, N)
 
 \item{N}{total sample size.}
 }
-\value{
-ans list of calculation results
-}
 \description{
 DSUR, page 665.
-This function computes effect sizes from models created using wilcox.test().
+This function computes effect sizes from models created using wilcox.test() and prints the result.
 }

@@ -3,6 +3,9 @@
 \name{kmo}
 \alias{kmo}
 \title{KMO Kaiser-Meyer-Olkin Measure of Sampling Adequacy}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 776. G. Jay Kerns, http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html
+}
 \usage{
 kmo(data)
 }
@@ -10,15 +13,10 @@ kmo(data)
 \item{data}{dataframe to compute the kmo on.}
 }
 \value{
-None
+list of the calculated results.
 }
 \description{
-DSUR, page 776.
-Function by G. Jay Kerns, Youngstown State University
-see http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816/html
+Function based on an implementation by G. Jay Kerns.
 This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 Needs the MASS package.
-}
-\examples{
-kmo(data.frame(c(1,2,3), c(1,2,3), c(1,2,3)))
 }

@@ -3,6 +3,9 @@
 \name{rcontrast}
 \alias{rcontrast}
 \title{Function rcontrast}
+\source{
+Andy Field, 'Discovering Statistics Using R', p. 457
+}
 \usage{
 rcontrast(t, df)
 }
@@ -15,8 +18,7 @@ rcontrast(t, df)
 None
 }
 \description{
-DSUR, page 457.
-This function computes effect sizes for the orthogonal contrasts.
+This function computes effect sizes for the orthogonal contrasts and prints the result.
 }
 \examples{
 rcontrast(2.474, 12)
