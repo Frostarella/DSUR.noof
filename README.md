@@ -4,7 +4,8 @@
 DSUR.noof is a package for R, including (almost) all functions of the DSUR package mentioned in Andy Field's 'Discovering Statistics Using R'. This is by no means an official version of the DSUR package -- just my private collection which I wanted to share.
 
 ## Development
-This package is still a work in progress. It should be working, but the functions are not fully documented yet. Please refer to the book 'Discovering Statistics Using R' when in need of further explanation for a function.
+This package is a work in progress. It is usable, but the functions are not fully documented yet. Please refer to the book 'Discovering Statistics Using R' when in need of further explanation for a function and be sure to check back regularily for updated versions.
+
 
 ## Installation
 The package can be easily installed by using the devtools to install it directly from GitHub. 

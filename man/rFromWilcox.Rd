@@ -15,6 +15,5 @@ rFromWilcox(wilcoxModel, N)
 \item{N}{total sample size.}
 }
 \description{
-DSUR, page 665.
 This function computes effect sizes from models created using wilcox.test() and prints the result.
 }

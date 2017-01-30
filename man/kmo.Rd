@@ -16,7 +16,7 @@ kmo(data)
 list of the calculated results.
 }
 \description{
-Function based on an implementation by G. Jay Kerns.
+Function by G. Jay Kerns.
 This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 Needs the MASS package.
 }

@@ -16,7 +16,6 @@ rcontrast <- function(t, df) {
   
 #' Function rFromWilcox 
 #'
-#' DSUR, page 665.
 #' This function computes effect sizes from models created using wilcox.test() and prints the result.
 #'
 #' @param wilcoxModel a model created using wilcox.test().
@@ -32,7 +31,7 @@ rFromWilcox <- function(wilcoxModel, N) {
 
 #' KMO Kaiser-Meyer-Olkin Measure of Sampling Adequacy 
 #'
-#' Function based on an implementation by G. Jay Kerns.
+#' Function by G. Jay Kerns.
 #' This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 #' Needs the MASS package.
 #'
@@ -197,13 +196,3 @@ residual.stats <- function(matrix) {
   cat("Proportions of absolute residuals > 0.05 = ", propLargeResid, "\n")
   graphics::hist(residuals)
 }
-
-
-
-
-
-
-
-
-
-
