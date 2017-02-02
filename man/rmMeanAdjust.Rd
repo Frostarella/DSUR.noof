@@ -4,7 +4,7 @@
 \alias{rmMeanAdjust}
 \title{Function rmMeanAdjust}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 365
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 365. London, England: SAGE.
 }
 \usage{
 rmMeanAdjust(dataframe)
@@ -18,3 +18,7 @@ output table of variables and adjustment.
 \description{
 This function adjusts scores for the fact they were from a repeated-measures design.
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+

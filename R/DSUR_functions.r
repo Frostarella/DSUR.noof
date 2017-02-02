@@ -6,7 +6,8 @@
 #' @param df degrees of freedom.
 #' @return None
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 457
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 457. London, England: SAGE.
 #' @examples 
 #' rcontrast(2.474, 12)
 rcontrast <- function(t, df) {
@@ -21,7 +22,8 @@ rcontrast <- function(t, df) {
 #' @param wilcoxModel a model created using wilcox.test().
 #' @param N total sample size.
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 665
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Filed, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
 # @examples missing
 rFromWilcox <- function(wilcoxModel, N) {
   z <- stats::qnorm(wilcoxModel$p.value / 2)
@@ -31,14 +33,17 @@ rFromWilcox <- function(wilcoxModel, N) {
 
 #' KMO Kaiser-Meyer-Olkin Measure of Sampling Adequacy 
 #'
-#' Function by G. Jay Kerns.
+#' Function by G. Jay Kerns, based on Antonio Trujillo-Ortiz et al's MATLAB script.
 #' This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 #' Needs the MASS package.
 #'
 #' @param data dataframe to compute the kmo on.
 #' @return list of the calculated results.
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 776. G. Jay Kerns, http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html
+#' @author Kerns, G. Jay.
+#' @source Kerns, G. Jay. http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html (accessed Feburary 2, 2017).
+#' @references Field, Andy. (2012) 'Discovering Statistics Using R', p. 776. London, England: SAGE.
+#' @references Trujillo-Ortiz et al. http://de.mathworks.com/matlabcentral/fileexchange/12736-kmo?requestedDomain=www.mathworks.com (accessed Feburary 2, 2017).
 # @examples missing
 kmo <- function(data){
   if(requireNamespace("MASS", quietly = TRUE)) {
@@ -100,7 +105,8 @@ kmo <- function(data){
 #' @param variable the variable to calculate the mean value of.
 #' @return None
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 228
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 228. London, England: SAGE.
 #' @examples 
 #' meanOfVariable(c(1,2,3))
 meanOfVariable <- function(variable) {
@@ -115,7 +121,8 @@ meanOfVariable <- function(variable) {
 #' @param logModel logistic regression model
 #' @return None
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 332
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 332. London, England: SAGE.
 # @examples missing
 logisiticPseudoR2s <- function(logModel) {
   dev <- logModel$deviance
@@ -138,7 +145,8 @@ logisiticPseudoR2s <- function(logModel) {
 #' @param dataframe 2-dimensional dataframe with the scores that need adjustment.
 #' @return output table of variables and adjustment.
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 365
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 365. London, England: SAGE.
 # @examples missing
 rmMeanAdjust <- function(dataframe) {
   varNames <- names(dataframe)
@@ -165,7 +173,8 @@ rmMeanAdjust <- function(dataframe) {
 #' @param n2 sample size of group 2.
 #' @return None
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 375
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 375. London, England: SAGE.
 # @examples missing
 ttestfromMeans <- function(x1, x2, sd1, sd2, n1, n2) {
   df <- n1+n2-2
@@ -182,7 +191,8 @@ ttestfromMeans <- function(x1, x2, sd1, sd2, n1, n2) {
 #' @param matrix residual matrix. (Calculate matrix using factor.residuals()).
 #' @return None
 #' @export
-#' @source Andy Field, 'Discovering Statistics Using R', p. 785
+#' @author Field, Andy. Miles, Jeremy. Field, Zoë.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 785. London, England: SAGE.
 # @examples missing
 residual.stats <- function(matrix) {
   residuals <- as.matrix(matrix[upper.tri(matrix)]) 

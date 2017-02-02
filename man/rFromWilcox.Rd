@@ -4,7 +4,7 @@
 \alias{rFromWilcox}
 \title{Function rFromWilcox}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 665
+Filed, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
 }
 \usage{
 rFromWilcox(wilcoxModel, N)
@@ -17,3 +17,7 @@ rFromWilcox(wilcoxModel, N)
 \description{
 This function computes effect sizes from models created using wilcox.test() and prints the result.
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+

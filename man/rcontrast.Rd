@@ -4,7 +4,7 @@
 \alias{rcontrast}
 \title{Function rcontrast}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 457
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 457. London, England: SAGE.
 }
 \usage{
 rcontrast(t, df)
@@ -23,3 +23,7 @@ This function computes effect sizes for the orthogonal contrasts and prints the 
 \examples{
 rcontrast(2.474, 12)
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+

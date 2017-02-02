@@ -4,7 +4,7 @@
 \alias{logisiticPseudoR2s}
 \title{Function logisticsPseudoR2s}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 332
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 332. London, England: SAGE.
 }
 \usage{
 logisiticPseudoR2s(logModel)
@@ -18,3 +18,7 @@ None
 \description{
 This function calculates the various values of R^2 from a logistic regression model and prints the results.
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+

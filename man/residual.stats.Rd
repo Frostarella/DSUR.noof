@@ -4,7 +4,7 @@
 \alias{residual.stats}
 \title{Function residual.stats}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 785
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 785. London, England: SAGE.
 }
 \usage{
 residual.stats(matrix)
@@ -18,3 +18,7 @@ None
 \description{
 This function wraps all of the factor analysis residual commands and prints the results.
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+

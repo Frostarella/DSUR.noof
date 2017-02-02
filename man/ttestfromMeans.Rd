@@ -4,7 +4,7 @@
 \alias{ttestfromMeans}
 \title{Function ttestfromMeans}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 375
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 375. London, England: SAGE.
 }
 \usage{
 ttestfromMeans(x1, x2, sd1, sd2, n1, n2)
@@ -28,3 +28,7 @@ None
 \description{
 This function calculates a t-test for the means, standard deviations, and sample sizes of two groups, and prints the results.
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+

@@ -1,16 +1,24 @@
 Package: DSUR.noof
-Title: Collection of Additional Functions Used in Andy Field's "Discovering Statistics Using R" 
+Title: Collection of Additional Functions Used in Andy Field's "Discovering
+    Statistics Using R"
 Version: 0.1
-Authors@R: 
-    c(person("Maria", "Aufheimer", email = "maria.aufheimer@googlemail.com", role = c("aut", "cre"), comment = "Package author."),
-    person("Andy", "Field", role = "aut", comment = "Author of the book 'Discovering Statsitics Using R' on which the package is based."),
-    person("Jeremy", "Miles", role = "aut", comment = "Co-author of the book 'Discovering Statistics Using R' on which the package is based."),
-    person("Zoe", "Field", role = "aut", comment = "Co-author of the book 'Discovering Statistics Using R' on which the package is based."))
-Description: The book "Discovering Statistics Using R" by Andy Field introduces several useful functions which are not included in any packages. Therefore, this package is meant to combine all mentioned functions into one package for ease of use.
-Depends: R (>= 3.3.0)
+Authors@R: c(person("Andy", "Field", role = "aut"),
+    person("Jeremy", "Miles", role = "aut"),
+    person("Zoë", "Field", role = "aut"),
+    person("Maria", "Aufheimer", email = "maria.aufheimer@googlemail.com", role = "cre"))
+Description: The book "Discovering Statistics Using R" by Andy Field introduces
+    several useful functions which are not included in any packages. Therefore, this
+    package is meant to combine all mentioned functions into one package for ease of
+    use.
+Depends:
+    R (>= 3.3.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1.9000
-Imports: stats (>= 3.3.0)
-Suggests: MASS (>= 7.3-45)
+RoxygenNote: 5.0.1
+Imports:
+    stats (>= 3.3.0)
+Suggests:
+    MASS (>= 7.3-45)
+URL: http://github.com/Frostarella/DSUR.noof
+BugReports: http://github.com/Frostarella/DSUR.noof/issues

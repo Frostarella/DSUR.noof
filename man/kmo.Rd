@@ -4,7 +4,7 @@
 \alias{kmo}
 \title{KMO Kaiser-Meyer-Olkin Measure of Sampling Adequacy}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 776. G. Jay Kerns, http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html
+Kerns, G. Jay. http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html (accessed Feburary 2, 2017).
 }
 \usage{
 kmo(data)
@@ -16,7 +16,16 @@ kmo(data)
 list of the calculated results.
 }
 \description{
-Function by G. Jay Kerns.
+Function by G. Jay Kerns, based on Antonio Trujillo-Ortiz et al's MATLAB script.
 This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 Needs the MASS package.
 }
+\author{
+Kerns, G. Jay.
+}
+\references{
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 776. London, England: SAGE.
+
+Trujillo-Ortiz et al. http://de.mathworks.com/matlabcentral/fileexchange/12736-kmo?requestedDomain=www.mathworks.com (accessed Feburary 2, 2017).
+}
+

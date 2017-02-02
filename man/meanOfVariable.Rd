@@ -4,7 +4,7 @@
 \alias{meanOfVariable}
 \title{Function meanOfVariable}
 \source{
-Andy Field, 'Discovering Statistics Using R', p. 228
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 228. London, England: SAGE.
 }
 \usage{
 meanOfVariable(variable)
@@ -21,3 +21,7 @@ This function calculates the mean value of a variable and prints the result
 \examples{
 meanOfVariable(c(1,2,3))
 }
+\author{
+Field, Andy. Miles, Jeremy. Field, Zoë.
+}
+
