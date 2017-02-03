@@ -28,6 +28,9 @@ None
 \description{
 This function calculates a t-test for the means, standard deviations, and sample sizes of two groups, and prints the results.
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \author{
 Field, Andy. Miles, Jeremy. Field, Zoë.
 }

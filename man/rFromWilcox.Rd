@@ -17,6 +17,9 @@ rFromWilcox(wilcoxModel, N)
 \description{
 This function computes effect sizes from models created using wilcox.test() and prints the result.
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \author{
 Field, Andy. Miles, Jeremy. Field, Zoë.
 }

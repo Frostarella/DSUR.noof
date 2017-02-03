@@ -18,6 +18,9 @@ None
 \description{
 This function calculates the mean value of a variable and prints the result
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \examples{
 meanOfVariable(c(1,2,3))
 }

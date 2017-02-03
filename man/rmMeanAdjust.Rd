@@ -18,6 +18,9 @@ output table of variables and adjustment.
 \description{
 This function adjusts scores for the fact they were from a repeated-measures design.
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \author{
 Field, Andy. Miles, Jeremy. Field, Zoë.
 }

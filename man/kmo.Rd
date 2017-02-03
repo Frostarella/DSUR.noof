@@ -4,7 +4,11 @@
 \alias{kmo}
 \title{KMO Kaiser-Meyer-Olkin Measure of Sampling Adequacy}
 \source{
-Kerns, G. Jay. http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html (accessed Feburary 2, 2017).
+Trujillo-Ortiz et al. \url{http://de.mathworks.com/matlabcentral/fileexchange/12736-kmo?requestedDomain=www.mathworks.com} (accessed Feburary 2, 2017).
+
+Kerns, G. Jay. \url{http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html} (accessed Feburary 2, 2017).
+
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 776. London, England: SAGE.
 }
 \usage{
 kmo(data)
@@ -20,12 +24,39 @@ Function by G. Jay Kerns, based on Antonio Trujillo-Ortiz et al's MATLAB script.
 This function computes Kaiser-Meyer-Olkin Measure of Sampling Adequacy.
 Needs the MASS package.
 }
+\note{
+Permission to publish under MIT license granted by G. Jay Kerns. Copyright remains with the author(s) of the function.
+}
+\section{The original MATLAB script by Trujillo-Ortiz et al. is licensed as follows}{
+
+
+Copyright (c) 2009, Antonio Trujillo-Ortiz
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+\itemize{
+      \item Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+      \item Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the distribution
+}
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+}
 \author{
 Kerns, G. Jay.
-}
-\references{
-Field, Andy. (2012) 'Discovering Statistics Using R', p. 776. London, England: SAGE.
-
-Trujillo-Ortiz et al. http://de.mathworks.com/matlabcentral/fileexchange/12736-kmo?requestedDomain=www.mathworks.com (accessed Feburary 2, 2017).
 }
 

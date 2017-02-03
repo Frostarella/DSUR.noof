@@ -18,6 +18,9 @@ None
 \description{
 This function wraps all of the factor analysis residual commands and prints the results.
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \author{
 Field, Andy. Miles, Jeremy. Field, Zoë.
 }

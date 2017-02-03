@@ -18,6 +18,9 @@ None
 \description{
 This function calculates the various values of R^2 from a logistic regression model and prints the results.
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \author{
 Field, Andy. Miles, Jeremy. Field, Zoë.
 }

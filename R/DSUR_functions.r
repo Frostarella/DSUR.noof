@@ -8,6 +8,7 @@
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 457. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 #' @examples 
 #' rcontrast(2.474, 12)
 rcontrast <- function(t, df) {
@@ -24,6 +25,7 @@ rcontrast <- function(t, df) {
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Filed, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 # @examples missing
 rFromWilcox <- function(wilcoxModel, N) {
   z <- stats::qnorm(wilcoxModel$p.value / 2)
@@ -41,9 +43,37 @@ rFromWilcox <- function(wilcoxModel, N) {
 #' @return list of the calculated results.
 #' @export
 #' @author Kerns, G. Jay.
-#' @source Kerns, G. Jay. http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html (accessed Feburary 2, 2017).
-#' @references Field, Andy. (2012) 'Discovering Statistics Using R', p. 776. London, England: SAGE.
-#' @references Trujillo-Ortiz et al. http://de.mathworks.com/matlabcentral/fileexchange/12736-kmo?requestedDomain=www.mathworks.com (accessed Feburary 2, 2017).
+#' @source Trujillo-Ortiz et al. \url{http://de.mathworks.com/matlabcentral/fileexchange/12736-kmo?requestedDomain=www.mathworks.com} (accessed Feburary 2, 2017).
+#' @source Kerns, G. Jay. \url{http://tolstoy.newcastle.edu.au/R/e2/help/07/08/22816.html} (accessed Feburary 2, 2017).
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 776. London, England: SAGE.
+#' @section The original MATLAB script by Trujillo-Ortiz et al. is licensed as follows:
+#'
+#' Copyright (c) 2009, Antonio Trujillo-Ortiz
+#'
+#' All rights reserved.
+#' 
+#' Redistribution and use in source and binary forms, with or without
+#' modification, are permitted provided that the following conditions are
+#' met:
+#' \itemize{
+#'       \item Redistributions of source code must retain the above copyright
+#'       notice, this list of conditions and the following disclaimer.
+#'       \item Redistributions in binary form must reproduce the above copyright
+#'       notice, this list of conditions and the following disclaimer in
+#'       the documentation and/or other materials provided with the distribution
+#' }
+#' THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+#' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+#' IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+#' ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+#' LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+#' CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+#' SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+#' INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+#' CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+#' ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+#' POSSIBILITY OF SUCH DAMAGE.
+#' @note Permission to publish under MIT license granted by G. Jay Kerns. Copyright remains with the author(s) of the function.
 # @examples missing
 kmo <- function(data){
   if(requireNamespace("MASS", quietly = TRUE)) {
@@ -107,6 +137,7 @@ kmo <- function(data){
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 228. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 #' @examples 
 #' meanOfVariable(c(1,2,3))
 meanOfVariable <- function(variable) {
@@ -123,6 +154,7 @@ meanOfVariable <- function(variable) {
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 332. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 # @examples missing
 logisiticPseudoR2s <- function(logModel) {
   dev <- logModel$deviance
@@ -147,6 +179,7 @@ logisiticPseudoR2s <- function(logModel) {
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 365. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 # @examples missing
 rmMeanAdjust <- function(dataframe) {
   varNames <- names(dataframe)
@@ -175,6 +208,7 @@ rmMeanAdjust <- function(dataframe) {
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 375. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 # @examples missing
 ttestfromMeans <- function(x1, x2, sd1, sd2, n1, n2) {
   df <- n1+n2-2
@@ -193,6 +227,7 @@ ttestfromMeans <- function(x1, x2, sd1, sd2, n1, n2) {
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
 #' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 785. London, England: SAGE.
+#' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 # @examples missing
 residual.stats <- function(matrix) {
   residuals <- as.matrix(matrix[upper.tri(matrix)]) 

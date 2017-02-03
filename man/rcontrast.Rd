@@ -20,6 +20,9 @@ None
 \description{
 This function computes effect sizes for the orthogonal contrasts and prints the result.
 }
+\note{
+Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
+}
 \examples{
 rcontrast(2.474, 12)
 }

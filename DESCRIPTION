@@ -2,10 +2,9 @@ Package: DSUR.noof
 Title: Collection of Additional Functions Used in Andy Field's "Discovering
     Statistics Using R"
 Version: 0.1
-Authors@R: c(person("Andy", "Field", role = "aut"),
-    person("Jeremy", "Miles", role = "aut"),
-    person("Zoë", "Field", role = "aut"),
-    person("Maria", "Aufheimer", email = "maria.aufheimer@googlemail.com", role = "cre"))
+Authors@R:
+    person("Maria", "Aufheimer", email = "maria.aufheimer@googlemail.com", role = "cre")
+Copyright: inst/COPYRIGHT
 Description: The book "Discovering Statistics Using R" by Andy Field introduces
     several useful functions which are not included in any packages. Therefore, this
     package is meant to combine all mentioned functions into one package for ease of
