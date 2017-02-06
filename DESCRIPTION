@@ -1,7 +1,7 @@
 Package: DSUR.noof
 Title: Collection of Additional Functions Used in Andy Field's 'Discovering
     Statistics Using R'
-Version: 0.1
+Version: 0.1.1
 Authors@R:
     person("Maria", "Aufheimer", email = "maria.aufheimer@googlemail.com", role = "cre")
 Description: The book 'Discovering Statistics Using R' by Andy Field introduces
