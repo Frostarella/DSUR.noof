@@ -11,7 +11,7 @@ Also, if you find any mistakes of any sort please let me know.
 The package can be easily installed by using the devtools to install it directly from GitHub. 
 Just copy the following commands into your R console and execute them.
 ```R
-package_install("devtools")
+install.packages("devtools")
 library(devtools)
 install_github("Frostarella/DSUR.noof")
 ```
