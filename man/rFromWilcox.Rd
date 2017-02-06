@@ -4,7 +4,7 @@
 \alias{rFromWilcox}
 \title{Function rFromWilcox}
 \source{
-Filed, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
+Field, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
 }
 \usage{
 rFromWilcox(wilcoxModel, N)

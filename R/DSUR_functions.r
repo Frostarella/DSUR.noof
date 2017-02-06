@@ -24,7 +24,7 @@ rcontrast <- function(t, df) {
 #' @param N total sample size.
 #' @export
 #' @author Field, Andy. Miles, Jeremy. Field, Zoë.
-#' @source Filed, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
+#' @source Field, Andy. (2012) 'Discovering Statistics Using R', p. 665. London, England: SAGE.
 #' @note Permission to publish under MIT license granted by Andy Field. Copyright remains with the authors of the function.
 # @examples missing
 rFromWilcox <- function(wilcoxModel, N) {
